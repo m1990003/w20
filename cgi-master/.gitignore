@@ -1,0 +1,13 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/.vs
+
+/App/bin
+/App/obj
+
+/engine/bin
+/engine/obj
+/QuickFont.Desktop
+/QuickFont.ES20
