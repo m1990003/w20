@@ -7,12 +7,12 @@ namespace cgimin.engine.texture
 {
     public class TextureManager
     {
-
+        
         // Methode zum laden einer Textur
         public static int LoadTexture(string fullAssetPath, bool clampEdges = false)
         {
             //fullAssetPath = "../../textures/" + fullAssetPath;
-            fullAssetPath = "textures/" + fullAssetPath;
+            fullAssetPath = "../../textures/" + fullAssetPath;
 
 
             // Textur wird generiert
