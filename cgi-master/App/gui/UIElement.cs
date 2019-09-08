@@ -142,7 +142,9 @@ namespace App.GUI
 
         public Text()
         {
-            privateFontCollection.AddFontFile("fonts/segoeui.ttf");
+            privateFontCollection.AddFontFile("/Users/Mohamed/Documents/GitHub/w20/cgi-master/App/fonts");
+
+            
             segoeUI = privateFontCollection.Families[0];
             this.Color = Color4.White;
         }
